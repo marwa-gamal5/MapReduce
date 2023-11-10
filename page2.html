@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Page</title>
+    <style>
+        body {
+            background-color: #86cdd9;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 5%;
+            font-size: 30px;
+        }
+
+        form {
+            margin-top: 10%;
+            display: inline-block;
+        }
+
+        label {
+            font-size: 20px;
+        }
+
+        select {
+            width: 200px;
+            background-color: #053545;
+            color: white;
+            font-size: 15px;
+            margin-left: 10px;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        button {
+            background-color: #053545;
+            color: white;
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        #output textarea {
+            margin-top: 5%;
+            font-size: 20px;
+            width: 50%;
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: auto;
+            background-color: #053545;
+            color: white;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Map REDUCE</h1>
+    <form> <label for="file">Select your file:</label> <select id="file" name="file">
+            <option value="P1">Part 1</option>
+            <option value="P2">Part 2</option>
+            <option value="P3">Part 3</option>
+            <option value="P4">Part 4</option>
+            <option value="P5">All Files</option>
+        </select> <button id="submitBtn" type="submit">Submit</button> </form>
+    <div id="output">
+        <textarea>{{.}}
+       </textarea>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+1- First run the master file and put in the same place the 
+file of data "CVPR_2019_paper.txt" and the file of web page "page2.html"
+go run master.go --makeMasterOnError (write this line to run master in cmd)
+ 
+2- Then put the file of slave in 4 places and run the 4 slaves
+
+- slave 1 
+go run slave.go --myport 8005   (write this line to run slave 1 in cmd)
+
+
+- slave 2 
+go run slave.go --myport 8006   (write this line to run slave 2 in cmd)
+
+
+- slave 3 
+go run slave.go --myport 8007   (write this line to run slave 3 in cmd)
+
+
+- slave 4 
+go run slave.go --myport 8008   (write this line to run slave 4 in cmd)
+
+3- Then you can see the result of each slave stored in file named "Map_Reduce.txt"
+or open the web page on this local host "http://localhost:8088/"
+and show the all result of map reduce of each slave in a mannered way
