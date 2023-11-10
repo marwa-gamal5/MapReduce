@@ -1,2 +1,2 @@
-# MapReduce
-MapReduce is a programming model for processing large datasets across a distributed cluster of computers
+# MapReduce 
+MapReduce is a programming model for processing large datasets across a distributed cluster of computers. It involves two main steps: Map, where data is divided into chunks and processed independently by "mappers," and Reduce, where results are aggregated by "reducers." A master node coordinates the overall execution, while distributed devices serve as both mappers and reducers, working in parallel to process the data efficiently.
